@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .clear::before,
+  .clear::after {
+    content: "";
+    display: table;
+  }
+  .clear::after {
+    clear: both;
+  }
+  .yesbtn .el-button--primary{
+    background-color: #ff4375;
+    color:#fff;
+    border: 1px solid #ff4375;
+  }
+  .yesbtn .el-button--primary:hover{
+    background-color: #ff6b93;
+  }
+  .el-button {
+    color: white;
+    background-color:#ff4375;
+    &:hover {
+      background-color:#ff6b93;
+    }
+  }
+
+  
